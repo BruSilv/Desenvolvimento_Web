@@ -1,0 +1,96 @@
+/* Estilos Gerias */
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.menu{
+	background-color: #000;
+}
+
+.menu ul{
+	text-align: right;
+}
+
+.menu ul li{ 
+	display: inline;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	display: inline-block;
+	color: #FFF;
+}
+
+.menu .ativo{
+	border-bottom: 2px solid #FFF;
+}
+
+.menu .titulo{
+	float: left;
+	text-decoration: none;
+	color: #FFF;
+}
+
+
+/* Estilos em Telas Grandes */
+@media screen and (min-width: 768px){
+
+.menu{
+	line-height: 3em;
+	padding: 0 20px;
+}
+
+.menu ul li a{
+	font-size: 1.3em;
+	padding: 0 20px;
+}
+
+.menu .titulo{
+	padding-left: 30px;
+	font-size: 1.2em;
+}
+
+}
+
+
+/* Estilos em Telas Médias */
+@media screen and (max-width: 768px){
+
+.menu{
+	line-height: 2.5em;
+	padding: 0 10px;
+}
+
+.menu ul li a{
+	font-size: 1.1em;
+	padding: 0 10px;
+}
+
+.menu .titulo{
+	padding-left: 20px;
+	font-size: 0.9em;
+}
+
+}
+
+
+/* Estilos em Telas Pequenas */
+@media screen and (max-width: 480px){
+
+.menu{
+	line-height: 2.5em;
+	padding: 0 5px;
+}
+
+.menu ul li a{
+	font-size: 1em;
+	padding: 0 5px;
+}
+
+.menu .titulo{
+	padding-left: 10px;
+	font-size: 0.8em;
+}
+
+}
